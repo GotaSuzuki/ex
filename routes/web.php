@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', 'App\Http\Controllers\ExController@index')->name('index');
+Route::get('/index' function(){
+    return view('index');
+});
